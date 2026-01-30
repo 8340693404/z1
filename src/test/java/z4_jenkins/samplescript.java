@@ -4,9 +4,10 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class samplescript {
-	@org.testng.annotations.Test
+	@Test
 	public void Test() {
 		WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
@@ -14,6 +15,7 @@ public class samplescript {
 
         driver.get("https://www.amazon.in/");
         System.out.println("hiii");
+        System.out.println("hiiiwwww");
 
 	}
 
